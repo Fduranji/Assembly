@@ -77,7 +77,7 @@ TNS		DCD &6B100107	; TNS floating point number. In decimal = 235.0625
 
 SignMask	DCD &80000000	; Mask for sign bit, same for IEEE and TNS
 IEEEExMask	DCD &7F800000	; Mask for IEEE exponent
-IEEESigMask DCD &007FFFFF	; Mask for IEEE significand
+IEEESigMask 	DCD &007FFFFF	; Mask for IEEE significand
 TNSExMask	DCD &000001FF	; Mask for TNS exponent
 TNSSigMask	DCD &7FFFFE00	; Mask for TNS significand
 
