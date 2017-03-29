@@ -13,6 +13,7 @@ jumps
 	ADD	r1, r1, #1	; counter, incremented to jump from sub1 to sub3
 	ADR r4, Subtab	; r4 = [Subtab]
 	LDR	pc, [r4, r1, LSL #2]	; r4 is address of jump table, uses contents of r1 to then jump to a subroutine
+					; the LSL #2 multiplies the contents of r1 to then jump to address of the next subroutine
 
 sub0	
 	; will never be reached since I r1 starts at 1 and not 0 
