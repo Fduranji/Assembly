@@ -6,7 +6,7 @@ start
 	MOV r2, #2		; used in later subroutines for addition
 	MOV r3, #3		; used in later subroutines for addition
 	BL	jumps
-					; r0 == 6
+					; at this point r0 == 6
 	B	.
 
 jumps
