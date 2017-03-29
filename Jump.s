@@ -16,7 +16,7 @@ jumps
 					; the LSL #2 multiplies the contents of r1 to then jump to address of the next subroutine
 
 sub0	
-	; will never be reached since I r1 starts at 1 and not 0 
+	; will never be reached since r1 starts at 1 and not 0 
 	MOV r0, #111
 	B	jumps
 
